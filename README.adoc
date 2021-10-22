@@ -1,0 +1,128 @@
+include::vars/render-vars.adoc[]
+include::vars/document-vars.adoc[]
+include::vars/book-vars.adoc[]
+include::content/000_vars.adoc[]
+include::locale/attributes.adoc[]
+
+= {subject}: {titulo} - {description}
+
+<<<
+toc::[]
+
+<<<
+#include::content/legal-approved/preface.adoc[leveloffset=+1] #TODO poner la licencia con la que se publica el libro
+
+<<<
+== Project Information
+
+=== Writer
+include::content/010_writer.adoc[leveloffset=+3]
+
+=== Owner
+include::content/020_owner.adoc[leveloffset=+3]
+
+=== Document Conventions
+include::content/030_document-conventions.adoc[leveloffset=+3]
+
+=== Additional Copies
+include::content/040_additional-copies.adoc[leveloffset=+3]
+
+=== Greetings 
+
+==== Greetings
+include::content/050_greetings.adoc[leveloffset=+4]
+
+
+// === Overview
+
+// ==== About {customer}
+// include::content/080_about-the-customer.adoc[leveloffset=+3]
+
+// ==== Executive Summary
+// include::content/100_executive_summary.adoc[leveloffset=+3]
+
+// <<<
+// == Architecture Overview
+// include::content/105_overview/010_ocp.adoc[leveloffset=+2]
+// <<<
+// include::content/105_overview/015_overview.adoc[leveloffset=+2]
+
+// <<<
+// == Architecture Design
+// include::content/110_design/005_installation_method.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/010_requirements.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/015_physical_architecture.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/020_network_architecture.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/025_storage.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/030_logging.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/035_monitoring.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/040_image_registry.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/045_platform_security.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/050_audit_and_compliance.adoc[leveloffset=+2]
+// <<<
+// include::content/110_design/055_application_security.adoc[leveloffset=+2]
+
+// <<<
+// == Installation
+// include::content/112_installation/005_deployment.adoc[leveloffset=+2]
+
+// <<<
+// == Day 2 Operations
+// include::content/115_day_2_operations/000_node_labels.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/005_fault_domains.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/010_infra_nodes.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/015_ingress_controllers.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/020_identity_management.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/025_logging.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/030_monitoring.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/040_mco.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/045_etcd_encryption.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/050_storage.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/055_project_template.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/060_upgrades.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/065_disable_self_provisioning.adoc[leveloffset=+2]
+// <<<
+// include::content/115_day_2_operations/070_token_duration.adoc[leveloffset=+2]
+
+// <<<
+// == Backup and Restore
+// include::content/120_backup_and_restore/010_backup_and_restore.adoc[leveloffset=+2]
+
+// <<<
+// == Disaster Recovery
+// include::content/125_disaster_recovery/010_disaster_recovery.adoc[leveloffset=+2]
+
+// <<<
+// == Platform Upgrades
+// include::content/150_upgrades/010_upgrades.adoc[leveloffset=+2]
+
+// <<<
+// // It is expected that anyone using additional-appendices.adoc will include one or more [appendix] blocks
+// include::content/220_additional-appendices.adoc[leveloffset=+1]
+
+// <<<
+// [appendix]
+// == Relevant Links
+// include::content/230_relevant-links.adoc[leveloffset=+2]
+
